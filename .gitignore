@@ -1,5 +1,5 @@
 # Repo-specific GitIgnore ----------------------------------------------------------------------------------------------
-*.jpg
+#*.jpg
 *.jpeg
 *.png
 *.bmp
@@ -13,7 +13,7 @@
 *.TIF
 *.TIFF
 *.HEIC
-*.mp4
+#*.mp4
 *.mov
 *.MOV
 *.avi
@@ -24,8 +24,8 @@
 !cfg/yolov3*.cfg
 
 storage.googleapis.com
-runs/*
-data/*
+#runs/*
+#data/*
 data/images/*
 !data/*.yaml
 !data/hyps
@@ -133,7 +133,7 @@ instance/
 docs/_build/
 
 # PyBuilder
-target/
+#target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
