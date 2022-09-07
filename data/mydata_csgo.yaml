@@ -1,0 +1,11 @@
+
+train: D:/IdeaProject/PyCharm/yolov5/data/mydata/images/train  
+val: D:/IdeaProject/PyCharm/yolov5/data/mydata/images/val  
+
+# Classes
+names:
+  0: ct_body
+  1: ct_head
+  2: t_body
+  3: t_head
+
