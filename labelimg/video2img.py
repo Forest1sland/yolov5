@@ -2,14 +2,15 @@ import cv2 as cv
 
 
 def save_img(img, path, num):
-    cv.imwrite(path + 'img_' + str(num) + '.jpg', img)
+    if cv.imwrite(path + 'img_' + str(num) + '.jpg', img):
+        print('img_' + str(num) + '.jpg' + ' success')
 
 
 video_path = 'labelimg/videos/video3.mp4'
 img_path = 'labelimg/images/'
 
 i = 0
-count = 1159
+count = 1233
 img_interval = 30
 
 video = cv.VideoCapture(video_path)
@@ -20,6 +21,7 @@ while video.isOpened():
     if i % img_interval == 0:
         count += 1
         save_img(frame, img_path, count)
+        
     c = cv.waitKey(1)
     if c == 27:
         break
