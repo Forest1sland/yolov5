@@ -1,6 +1,6 @@
 
-train: D:/IdeaProject/PyCharm/yolov5/data/mydata/aim_csgo/images/train
-val: D:/IdeaProject/PyCharm/yolov5/data/mydata/aim_csgo/images/val
+train: data/mydata/aim_csgo/images/train
+val: data/mydata/aim_csgo/images/val
 
 # Classes
 names:
